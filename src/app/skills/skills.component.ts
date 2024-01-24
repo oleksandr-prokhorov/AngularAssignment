@@ -12,13 +12,13 @@ export class SkillsComponent {
       id: 1,
       name: '.NET',
       skillRating: 80,
-      description: '.NET and frameworks (ASP.NET, WPF, RazorPages), data structures',
+      description: '.NET and frameworks (ASP.NET, RazorPages)',
     },
     {
       id: 2,
       name: 'Python',
       skillRating: 60,
-      description: 'Python and frameworks (Flask, Falcon, Django)',
+      description: 'Python and frameworks (Flask, Django)',
     },
     {
       id: 3,

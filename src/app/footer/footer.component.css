@@ -1,16 +1,15 @@
 h1 {
-    color: #090201;
+    color: #ffffff;
     font-size: 25px;
     text-align: center;
 }
 h2 {
-    color: #090201;
+    color: #ffffff;
     font-size: 20px;
     text-align: center;
 }
 .border {
     position: relative;
-    padding: 40px;
+    padding: 20px;
     background: #d21919;
-    border-top: 20px solid #080600;
 }
