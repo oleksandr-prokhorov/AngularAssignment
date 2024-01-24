@@ -1,0 +1,11 @@
+h1 {
+    color: #090201;
+    font-size: 25px;
+}
+h2 {
+    color: #090201;
+    font-size: 20px;
+}
+h1.is-phone-portrait , h2.is-phone-portrait {
+   font-size: 10px;
+}

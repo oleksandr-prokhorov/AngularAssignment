@@ -1,0 +1,19 @@
+<div class="about" id="about">
+    <div class="content-inner">
+        <div class="content-header">
+            <h2>{{about_info.title}}</h2>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6 col-lg-7">
+                <div *ngIf="joke; then thenBlock else elseBlock"></div>
+                <p>
+                    <ng-template #thenBlock> {{ about_info.funny_joke }}</ng-template>
+                    <ng-template #elseBlock> {{ about_info.about }}</ng-template>
+                </p>
+                <button (click)="onClick()" type="button" class="btn btn-dark">
+                    {{ button }}
+                  </button>
+            </div>
+        </div>
+    </div>
+</div>

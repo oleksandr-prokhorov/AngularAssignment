@@ -1,0 +1,35 @@
+
+<div class="section" id="experience">
+    <div class="container cc-experience">
+      <div class="card">
+        <div class="row" >
+          <div class="col-md-5"  data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+              <div class="h3">{{ jobs[0].company }}</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">{{ jobs[0].name }} ({{ jobs[0].date_start | date:'MM/dd/yyyy' }} - Present)</div>
+              <p> {{ jobs[0].description }} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-5" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+              <div class="h3">{{ jobs[1].company }}</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">{{ jobs[1].name }} ({{ jobs[1].date_start | date:'MM/dd/yyyy' }} - {{ jobs[1].date_finish | date:'MM/dd/yyyy' }})</div>
+              <p> {{ jobs[1].description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
