@@ -9,6 +9,6 @@ export class ProfileComponent {
   profile = {
     name: 'Oleksandr Prokhorov',
     description: 'Student, software developer, history enthusiast',
-    image: 'assets/placeholder.jpg'
+    image: 'assets/me.jpg'
   }
 }
