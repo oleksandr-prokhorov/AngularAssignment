@@ -149,10 +149,8 @@ a:focus {
 .card {
     margin: 10px;
     float: left;
-
 }
 .card-body {
     margin:1px;
     display:inline-block; 
-    
 }
